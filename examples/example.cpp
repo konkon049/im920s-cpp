@@ -1,9 +1,9 @@
 // im920s.hpp の使用例: 送信して、相手からの受信を表示する
-// ビルド: g++ -std=c++17 -o example example.cpp
-// 実行:   ./example /dev/ttyUSB0
+// ビルド: make  (build/example ができる)
+// 実行:   ./build/example /dev/ttyUSB0
 #include <iostream>
 
-#include "im920s.hpp"
+#include "../include/im920s.hpp"
 
 int main(int argc, char** argv) {
   using namespace std::chrono_literals;

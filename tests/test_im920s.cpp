@@ -1,6 +1,6 @@
 // im920s.hpp のテスト
 //
-// ビルド: g++ -std=c++17 -O2 -Wall -Wextra -o test_im920s test_im920s.cpp
+// ビルド: make           (または g++ -std=c++17 -O2 -Wall -pthread -o test_im920s tests/test_im920s.cpp)
 // 実行:
 //   ./test_im920s                                   # ハードウェア不要の単体テストのみ
 //   ./test_im920s /dev/ttyUSB0 /dev/ttyUSB1         # 実機テストも実行
@@ -14,7 +14,7 @@
 #include <string>
 #include <vector>
 
-#include "im920s.hpp"
+#include "../include/im920s.hpp"
 
 using namespace std::chrono_literals;
 using im920s::Module;

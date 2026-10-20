@@ -1,4 +1,3 @@
-test_im920s
-example
-*.o
+build/
 .claude/
+*.o
